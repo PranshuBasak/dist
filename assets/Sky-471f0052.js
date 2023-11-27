@@ -1,0 +1,1 @@
+import{r as a,u as c,d as n,j as e}from"./index-d6c2bd58.js";const i="/assets/sky-8f2a39ec.glb",m=({isRotating:t})=>{const s=a.useRef(),r=c(i);return n((u,o)=>{t&&(s.current.rotation.y+=.15*o)}),e.jsx("mesh",{ref:s,children:e.jsx("primitive",{object:r.scene})})};export{m as default};
