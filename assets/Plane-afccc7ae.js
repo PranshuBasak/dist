@@ -1,0 +1,1 @@
+import{r as n,u as i,e as f,j as a}from"./index-ea065378.js";const p="/assets/plane-ee6b5fe9.glb";function l({isRotating:s,...o}){const t=n.useRef(),{scene:c,animations:r}=i(p),{actions:e}=f(r,t);return n.useEffect(()=>{s?e["Take 001"].play():e["Take 001"].stop()},[e,s]),a.jsx("mesh",{...o,ref:t,children:a.jsx("primitive",{object:c})})}export{l as Plane,l as default};
